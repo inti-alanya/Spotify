@@ -13,6 +13,27 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{d5b519ea-885b-433e-848c-cae468b69b4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interno">
+      <UniqueIdentifier>{ac539fb4-ea5a-4eed-b4d8-4f7ec8444c99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interno\Estructuras">
+      <UniqueIdentifier>{dc8a4fa6-8301-421b-8b58-c322dab0b008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Negocio">
+      <UniqueIdentifier>{91d15ec0-2ab2-4959-ac91-19baaa11c4cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Negocio\Modelos">
+      <UniqueIdentifier>{21776c4e-7ce1-4834-9294-a110b9d226d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Negocio\Datos">
+      <UniqueIdentifier>{2a075c59-c5af-438f-826f-c118a71a85d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Negocio\Generico">
+      <UniqueIdentifier>{513d1dd5-123f-4345-ab42-d4eb2f853d2f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="app.rc">
@@ -26,6 +47,45 @@
     <ClInclude Include="pch.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
+    <ClInclude Include="Cancion.h">
+      <Filter>Negocio\Modelos</Filter>
+    </ClInclude>
+    <ClInclude Include="Playlists.h">
+      <Filter>Negocio\Modelos</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaCircular.hpp">
+      <Filter>Interno\Estructuras</Filter>
+    </ClInclude>
+    <ClInclude Include="Cola.hpp">
+      <Filter>Interno\Estructuras</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaDoble.hpp">
+      <Filter>Interno\Estructuras</Filter>
+    </ClInclude>
+    <ClInclude Include="Pila.hpp">
+      <Filter>Interno\Estructuras</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="Lista.hpp">
+      <Filter>Interno\Estructuras</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaDobleCircular.hpp">
+      <Filter>Interno\Estructuras</Filter>
+    </ClInclude>
+    <ClInclude Include="Album.h">
+      <Filter>Negocio\Modelos</Filter>
+    </ClInclude>
+    <ClInclude Include="Persona.h">
+      <Filter>Negocio\Generico</Filter>
+    </ClInclude>
+    <ClInclude Include="Artista.h">
+      <Filter>Negocio\Modelos</Filter>
+    </ClInclude>
+    <ClInclude Include="Usuario.h">
+      <Filter>Negocio\Modelos</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Spotify.cpp">
@@ -37,10 +97,33 @@
     <ClCompile Include="pch.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
+    <ClCompile Include="Cancion.cpp">
+      <Filter>Negocio\Modelos</Filter>
+    </ClCompile>
+    <ClCompile Include="Playlists.cpp">
+      <Filter>Negocio\Modelos</Filter>
+    </ClCompile>
+    <ClCompile Include="Album.cpp">
+      <Filter>Negocio\Modelos</Filter>
+    </ClCompile>
+    <ClCompile Include="Persona.cpp">
+      <Filter>Negocio\Generico</Filter>
+    </ClCompile>
+    <ClCompile Include="Artista.cpp">
+      <Filter>Negocio\Modelos</Filter>
+    </ClCompile>
+    <ClCompile Include="Usuario.cpp">
+      <Filter>Negocio\Modelos</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="app.ico">
       <Filter>Archivos de recursos</Filter>
     </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="canciones.txt">
+      <Filter>Negocio\Datos</Filter>
+    </Text>
   </ItemGroup>
 </Project>
