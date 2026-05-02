@@ -1,0 +1,58 @@
+﻿#include "pch.h"
+#include "Cancion.h"
+
+Cancion::Cancion() : nombre(""), duracion(0), tipo(""), compositor("")
+{
+}
+
+Cancion::Cancion(std::string nombre, int duracion, std::string tipo, std::string compositor)
+{
+    this->nombre = nombre;
+    this->duracion = duracion;
+    this->tipo = tipo;
+    this->compositor = compositor;
+}
+
+Cancion::~Cancion()
+{
+}
+
+std::string Cancion::getNombre() const
+{
+    return nombre;
+}
+
+void Cancion::setNombre(std::string nombre)
+{
+    this->nombre = nombre;
+}
+
+int Cancion::getDuracion() const
+{
+    return duracion;
+}
+
+void Cancion::setDuracion(int duracion)
+{
+    this->duracion = duracion;
+}
+
+std::string Cancion::getTipo() const
+{
+    return tipo;
+}
+
+void Cancion::setTipo(std::string tipo)
+{
+    this->tipo = tipo;
+}
+
+std::string Cancion::getCompositor() const
+{
+    return compositor;
+}
+
+void Cancion::setCompositor(std::string compositor)
+{
+    this->compositor = compositor;
+}

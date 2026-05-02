@@ -1,0 +1,30 @@
+﻿#pragma once
+#include <iostream>
+#include <string>
+
+class Cancion
+{
+private:
+	std::string nombre;
+	int duracion;
+	std::string tipo;
+	std::string compositor;
+
+public:
+	Cancion();
+	Cancion(std::string nombre, int duracion, std::string tipo, std::string compositor);
+	~Cancion();
+
+	std::string getNombre() const;
+	void setNombre(std::string nombre);
+
+	int getDuracion() const;
+	void setDuracion(int duracion);
+
+	std::string getTipo() const;
+	void setTipo(std::string tipo);
+
+	std::string getCompositor() const;
+	void setCompositor(std::string compositor);
+};
+
