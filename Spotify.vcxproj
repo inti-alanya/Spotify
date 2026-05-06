@@ -130,6 +130,7 @@
     <ClInclude Include="Artista.h" />
     <ClInclude Include="Cancion.h" />
     <ClInclude Include="Cola.hpp" />
+    <ClInclude Include="Genero.h" />
     <ClInclude Include="Lista.hpp" />
     <ClInclude Include="ListaCircular.hpp" />
     <ClInclude Include="ListaDoble.hpp" />
@@ -147,6 +148,7 @@
     <ClCompile Include="Artista.cpp" />
     <ClCompile Include="AssemblyInfo.cpp" />
     <ClCompile Include="Cancion.cpp" />
+    <ClCompile Include="Genero.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
@@ -168,6 +170,9 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="canciones.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

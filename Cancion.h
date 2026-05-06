@@ -2,6 +2,7 @@
 #include <iostream>
 #include <string>
 #include "Artista.h"
+#include "Album.h"
 using namespace std;
 class Cancion
 {

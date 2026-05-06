@@ -86,6 +86,9 @@
     <ClInclude Include="Usuario.h">
       <Filter>Negocio\Modelos</Filter>
     </ClInclude>
+    <ClInclude Include="Genero.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Spotify.cpp">
@@ -115,6 +118,9 @@
     <ClCompile Include="Usuario.cpp">
       <Filter>Negocio\Modelos</Filter>
     </ClCompile>
+    <ClCompile Include="Genero.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="app.ico">
@@ -125,5 +131,8 @@
     <Text Include="canciones.txt">
       <Filter>Negocio\Datos</Filter>
     </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
 </Project>

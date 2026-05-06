@@ -8,13 +8,15 @@ class Usuario :
 private:
 	Lista<Playlists*>* playlists;
 	string nombreUsuario;
+	string email;
 	int contrasena;
 	bool suscripcion;
 public:
-	Usuario(string nombre, string pais, string nombreUsuario, int contrasena, bool suscripcion);
+	Usuario(string nombre, string nombreUsuario, string email, int contrasena, bool suscripcion);
 	Lista<Playlists*>* getPlaylists();
 	void setPlaylists(Lista<Playlists*>* playlists);
 	string getNombreUsuario();
+	string getEmail();
 	int getContrasena();
 	bool getSuscripcion();
 	void setSuscripcion(bool suscripcion);

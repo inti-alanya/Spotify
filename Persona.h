@@ -6,9 +6,8 @@ class Persona
 {
 private:
 	string nombre;
-	string pais;
 public:
-	Persona(string nombre, string pais);
+	Persona(string nombre);
 	string getNombre();
 	string getPais();
 	void virtual mostrar();

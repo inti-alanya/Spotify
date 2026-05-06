@@ -9,12 +9,21 @@ class Artista :
 {
 private:
 	string nombreArtistico;
+	string generoPrincipal;
+	int oyentesMensuales;
 	Lista<Album*>* albums;
 public:
-	Artista(string nombre, string pais, string nombreArtistico);
+	Artista();
+	Artista(string nombre, string generoPrincipal, int oyentesMensuales, string nombreArtistico);
+
 	string getNombreArtistico();
+	string getGeneroPrincipal();
+	int getOyentesMensuales();
 	Lista<Album*>* getAlbums();
 	void setAlbums(Lista<Album*>* albums);
+
+	void agregarAlbum(Album* a);
+
 	void mostrar() override;
 };
 

@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Album" Collapsed="true">
+    <Position X="10.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>A2AAAAACAAIAAAGGACAAgARKAAAAIABAACAACBAAAgA=</HashCode>
+      <FileName>Album.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Artista" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAACAAAAIAAAAIAAQAAAEEAAA=</HashCode>
+      <FileName>Artista.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cancion" Collapsed="true">
+    <Position X="11.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAEAAAEAAEBAABABBAAAACAAACQSAAEAEAAgE=</HashCode>
+      <FileName>Cancion.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Playlists" Collapsed="true">
+    <Position X="9.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QCA4AAAAAAAEQACEAAAAgAIIAIIBAAAAACAAACAAEAA=</HashCode>
+      <FileName>Playlists.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Usuario" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAQAAAEAAAiAAIAIAAAAACAAAAFAACAEAA=</HashCode>
+      <FileName>Usuario.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Persona" Collapsed="true">
+    <Position X="2.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACEAAAAgAAAAAQAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Persona.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cola&lt;T&gt;" Collapsed="true">
+    <Position X="3.75" Y="7.75" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="Cola&lt;T&gt;::Nodo" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Cola.hpp</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AQAAYCAAAJAAAAAAAAAACggAAAKAAAIAgAAABAAACAA=</HashCode>
+      <FileName>Cola.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lista&lt;T&gt;" Collapsed="true">
+    <Position X="6.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QIAAICAAAUAIAAAEgABAiAAAAAIACCIAgAAAAAAAAAA=</HashCode>
+      <FileName>Lista.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ListaCircular&lt;T&gt;" Collapsed="true">
+    <Position X="8.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QIAAACAACQAAQAAAAABACAAAAAIAgQIAAAAAAAgAAAA=</HashCode>
+      <FileName>ListaCircular.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ListaDoble&lt;T&gt;" Collapsed="true">
+    <Position X="9.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QIAAICAACYAIIAAEAABAiAAAAAIACAIAgAAAAAQAAAA=</HashCode>
+      <FileName>ListaDoble.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ListaDobleCircular&lt;T&gt;" Collapsed="true">
+    <Position X="11.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QIAAACAACQAAAAAAAABACAAAAgIAiAIIAAAAAAgAAAA=</HashCode>
+      <FileName>ListaDobleCircular.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pila&lt;T&gt;" Collapsed="true">
+    <Position X="5.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAICAAAABAAAAAIgCBCAAAAAIAAAIAgAAAAAAACAA=</HashCode>
+      <FileName>Pila.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
